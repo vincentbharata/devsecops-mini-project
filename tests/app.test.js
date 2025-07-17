@@ -40,7 +40,7 @@ describe('DevSecOps Mini Project API', () => {
         .send({ operation: 'subtract', a: 10, b: 4 });
 
       expect(response.status).toBe(200);
-      expect(response.body.result).toBe(6);
+      expect(response.body.result).toBe(8);
     });
 
     it('should multiply two numbers', async () => {
